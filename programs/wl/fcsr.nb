@@ -1,0 +1,135 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4177,        126]
+NotebookOptionsPosition[      3903,        112]
+NotebookOutlinePosition[      4279,        128]
+CellTagsIndexPosition[      4236,        125]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"nMax", "=", "1024"}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"W", "=", "32"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"x0", "=", "23423"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"sigma", "[", 
+    RowBox[{"x_", ",", "c_", ",", "m_"}], "]"}], ":=", 
+   RowBox[{"m", "+", 
+    RowBox[{"DigitCount", "[", 
+     RowBox[{
+      RowBox[{"BitAnd", "[", 
+       RowBox[{"x", ",", "c"}], "]"}], ",", "2", ",", "1"}], "]"}]}]}], 
+  ";"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"fcsrStep", "[", 
+    RowBox[{"x_", ",", "c_", ",", "m_", ",", "w_"}], "]"}], ":=", 
+   RowBox[{"Mod", "[", 
+    RowBox[{
+     RowBox[{"BitOr", "[", 
+      RowBox[{
+       RowBox[{"BitShiftLeft", "[", 
+        RowBox[{"x", ",", "1"}], "]"}], ",", 
+       RowBox[{"Mod", "[", 
+        RowBox[{
+         RowBox[{"sigma", "[", 
+          RowBox[{"x", ",", "c", ",", "m"}], "]"}], ",", "2"}], "]"}]}], 
+      "]"}], ",", 
+     RowBox[{
+      RowBox[{"2", "^", "w"}], "+", "1"}]}], "]"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"fcsr", "[", 
+    RowBox[{"x_", ",", "c_", ",", "m_", ",", "w_"}], "]"}], ":=", 
+   RowBox[{"RecurrenceTable", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"X", "[", 
+         RowBox[{"n", "+", "1"}], "]"}], "\[Equal]", 
+        RowBox[{"fcsrStep", "[", 
+         RowBox[{
+          RowBox[{"X", "[", "n", "]"}], ",", "c", ",", 
+          RowBox[{"M", "[", "n", "]"}], ",", "w"}], "]"}]}], ",", 
+       RowBox[{
+        RowBox[{"X", "[", "1", "]"}], "\[Equal]", "x"}], ",", 
+       RowBox[{
+        RowBox[{"M", "[", 
+         RowBox[{"n", "+", "1"}], "]"}], "\[Equal]", 
+        RowBox[{"Quotient", "[", 
+         RowBox[{
+          RowBox[{"sigma", "[", 
+           RowBox[{"x", ",", "c", ",", 
+            RowBox[{"M", "[", "n", "]"}]}], "]"}], ",", "2"}], "]"}]}], ",", 
+       RowBox[{
+        RowBox[{"M", "[", "1", "]"}], "\[Equal]", "m"}]}], "}"}], ",", "X", 
+     ",", 
+     RowBox[{"{", 
+      RowBox[{"n", ",", "1", ",", "nMax"}], "}"}], ",", 
+     RowBox[{"DependentVariables", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"X", ",", "M"}], "}"}]}]}], "]"}]}], ";"}], "\n", 
+ RowBox[{"TableForm", "[", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"ListPlot", "[", 
+       RowBox[{"fcsr", "[", 
+        RowBox[{"x0", ",", "c", ",", "121", ",", "W"}], "]"}], "]"}], ",", 
+      RowBox[{"\"\<c=\>\"", "~~", 
+       RowBox[{"ToString", "[", 
+        RowBox[{"BaseForm", "[", 
+         RowBox[{"c", ",", "2"}], "]"}], "]"}]}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "1", ",", "1024", ",", "7"}], "}"}]}], "]"}], 
+  "]"}], "\[IndentingNewLine]"}], "Input",
+ CellChangeTimes->{{3.798600359242571*^9, 3.798600359242571*^9}, {
+  3.798600532780497*^9, 3.798600608163809*^9}, {3.7986006479160824`*^9, 
+  3.798600652875366*^9}, {3.798600715570952*^9, 3.798600719499177*^9}, {
+  3.798600892906095*^9, 3.7986009959529886`*^9}, {3.798601047705949*^9, 
+  3.7986010886242895`*^9}, {3.798601260535122*^9, 3.7986012751029553`*^9}, {
+  3.7986013111030145`*^9, 3.798601332166219*^9}, {3.7986014537831755`*^9, 
+  3.798601464198771*^9}, {3.7986016661963243`*^9, 3.798601755331423*^9}, {
+  3.798601830428718*^9, 3.798601831891802*^9}, {3.7986018950524144`*^9, 
+  3.7986018968355165`*^9}}]
+},
+WindowSize->{2560, 974},
+WindowMargins->{{-9, Automatic}, {Automatic, -9}},
+Magnification:>1.6 Inherited,
+FrontEndVersion->"10.0 for Microsoft Windows (64-bit) (December 4, 2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 3341, 90, 251, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
