@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    682025,      13442]
-NotebookOptionsPosition[    681047,      13416]
-NotebookOutlinePosition[    681489,      13433]
-CellTagsIndexPosition[    681446,      13430]
+NotebookDataLength[    682793,      13457]
+NotebookOptionsPosition[    681812,      13431]
+NotebookOutlinePosition[    682258,      13448]
+CellTagsIndexPosition[    682215,      13445]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -97,14 +97,15 @@ Cell[BoxData[{
    3.8869009059573565`*^9}, {3.886900957365297*^9, 3.886900957756319*^9}, 
    3.8869010006207705`*^9, {3.8869013777053385`*^9, 3.8869014032407994`*^9}, {
    3.8869015458559566`*^9, 3.886901553280381*^9}},
- CellLabel->"In[99]:=",ExpressionUUID->"9b0a8143-10e1-4ddc-8f31-b8236050a6dc"],
+ CellLabel->"In[1]:=",ExpressionUUID->"9b0a8143-10e1-4ddc-8f31-b8236050a6dc"],
 
 Cell[BoxData[
  RowBox[{
   RowBox[{"lkp", "[", 
    RowBox[{"mod", ",", "9", ",", "13", ",", "0"}], "]"}], ";"}]], "Input",
- CellChangeTimes->{3.886901475888955*^9},
- CellLabel->"In[98]:=",ExpressionUUID->"355dc247-e529-4dfa-ac15-80e0934e4004"],
+ CellChangeTimes->{3.886901475888955*^9, 3.887503067760604*^9, 
+  3.8875049078178487`*^9},
+ CellLabel->"In[6]:=",ExpressionUUID->"355dc247-e529-4dfa-ac15-80e0934e4004"],
 
 Cell[CellGroupData[{
 
@@ -224,6 +225,7 @@ fPt7II//6uM/H/9p/KfxX338Vx//6eVuvJTHf/Xx33z8/0/7x//04H968J+P
         GridLines->{None, None},
         GridLinesStyle->Directive[
           GrayLevel[0.5, 0.4]],
+        ImageSize->{334.1249999999942, Automatic},
         Method->{
          "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
           "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
@@ -319,6 +321,7 @@ u8/fzl+Py7nT/N3nb+ev+Wv+mr/mr/nrqffV/DV/n4+/nb/mr/m7z9/OX/PX
         GridLines->{None, None},
         GridLinesStyle->Directive[
           GrayLevel[0.5, 0.4]],
+        ImageSize->{349.1249999999941, Automatic},
         Method->{
          "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
           "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
@@ -532,6 +535,7 @@ fP71/P+3nv/y8K/nX8+/zL/Mf3n41/Ovv7v+H5pVTos=
         GridLines->{None, None},
         GridLinesStyle->Directive[
           GrayLevel[0.5, 0.4]],
+        ImageSize->{352.8749999999955, Automatic},
         Method->{
          "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
           "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
@@ -644,6 +648,7 @@ Pv6nB//Vx38+/svjv/r4z8d/18N/Pv7z8Z/Gf+vf7MeH8vhvffjPx38+/vPx
         GridLines->{None, None},
         GridLinesStyle->Directive[
           GrayLevel[0.5, 0.4]],
+        ImageSize->{351.374999999998, Automatic},
         Method->{
          "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
           "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
@@ -731,6 +736,7 @@ P8u/yV/k3+Wn/+T+io5X0OxPsz/N/jT70+Gvafb/v/9fPSOQUQ==
         GridLines->{None, None},
         GridLinesStyle->Directive[
           GrayLevel[0.5, 0.4]],
+        ImageSize->{367.4999999999891, Automatic},
         Method->{
          "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
           "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
@@ -1066,6 +1072,7 @@ uMVHnPAJd/gB9/gRD/iMM77gEV/xhG94xncc/rP0Chd4jUu8wRXe4vh//xdS
         GridLines->{None, None},
         GridLinesStyle->Directive[
           GrayLevel[0.5, 0.4]],
+        ImageSize->{400.874999999996, Automatic},
         Method->{
          "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
           "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
@@ -1484,6 +1491,7 @@ p2f+T8/8zx//p2f+T8/8L/7Xx/8Ddu8zVA==
         GridLines->{None, None},
         GridLinesStyle->Directive[
           GrayLevel[0.5, 0.4]],
+        ImageSize->{403.1249999999942, Automatic},
         Method->{
          "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
           "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
@@ -1703,6 +1711,7 @@ NP6XH/+z43/58b/8+J/G//zxv/Hjf/OD//87f/yfnvg/PfG//utLO6Qn/ueP
         GridLines->{None, None},
         GridLinesStyle->Directive[
           GrayLevel[0.5, 0.4]],
+        ImageSize->{421.1249999999982, Automatic},
         Method->{
          "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
           "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
@@ -1934,6 +1943,7 @@ PP43Hv/rj//Fx//GP7+2F/HwP3/4/3/zg//Tg//Tg//Tg//Tg//Tg//Tg//Z
         GridLines->{None, None},
         GridLinesStyle->Directive[
           GrayLevel[0.5, 0.4]],
+        ImageSize->{402.37499999999534`, Automatic},
         Method->{
          "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
           "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
@@ -3941,6 +3951,7 @@ z//Nn/8bH//H/N/7/B/zf8z/zYf/64//Gy//157//1f98P94+H88/D8e/q89
         GridLines->{None, None},
         GridLinesStyle->Directive[
           GrayLevel[0.5, 0.4]],
+        ImageSize->{367.4999999999975, Automatic},
         Method->{
          "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
           "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
@@ -8993,6 +9004,7 @@ Pv9Xnv/L5//i83/5t5d0h/m/9vi/+Pzf8/N//PqSvjVe/F/7/B/zf+PP/8Xn
         GridLines->{None, None},
         GridLinesStyle->Directive[
           GrayLevel[0.5, 0.4]],
+        ImageSize->{419.62499999999704`, Automatic},
         Method->{
          "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
           "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
@@ -9321,6 +9333,7 @@ f/n1Ybypzv/x//z/X07gz3o=
         GridLines->{None, None},
         GridLinesStyle->Directive[
           GrayLevel[0.5, 0.4]],
+        ImageSize->{425.2499999999941, Automatic},
         Method->{
          "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
           "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
@@ -11549,6 +11562,7 @@ T8/8n575nz/+54//+eN/8fE/f/yvP/5nx/80/tcf/6dn/mfH//zxP43/9cf/
         GridLines->{None, None},
         GridLinesStyle->Directive[
           GrayLevel[0.5, 0.4]],
+        ImageSize->{422.99999999999363`, Automatic},
         Method->{
          "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
           "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
@@ -13382,6 +13396,7 @@ b89fz9/78dfz/3t7/mXXQeYvb/u52PPX89fz1/Mv/8//v0ssoLw=
         GridLines->{None, None},
         GridLinesStyle->Directive[
           GrayLevel[0.5, 0.4]],
+        ImageSize->{314.2499999999982, Automatic},
         Method->{
          "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
           "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
@@ -13414,9 +13429,9 @@ b89fz9/78dfz/3t7/mXXQeYvb/u52PPX89fz1/Mv/8//v0ssoLw=
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{919.1999999999999, 606.},
-WindowMargins->{{Automatic, -930}, {Automatic, 0}},
-Magnification:>2. Inherited,
+WindowSize->{919.1999999999999, 604.8},
+WindowMargins->{{Automatic, -930}, {Automatic, 1.2}},
+Magnification:>1.6 Inherited,
 FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 9, 2020)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"02242bad-4c66-42f9-b8c3-e2ad23c17111"
@@ -13433,14 +13448,14 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 328, 5, 106, "Subtitle",ExpressionUUID->"1df44e5f-2daa-44b2-9b34-004216a2c1a9"],
-Cell[911, 29, 3072, 70, 478, "Input",ExpressionUUID->"9b0a8143-10e1-4ddc-8f31-b8236050a6dc"],
-Cell[3986, 101, 242, 5, 56, "Input",ExpressionUUID->"355dc247-e529-4dfa-ac15-80e0934e4004"],
+Cell[580, 22, 328, 5, 84, "Subtitle",ExpressionUUID->"1df44e5f-2daa-44b2-9b34-004216a2c1a9"],
+Cell[911, 29, 3071, 70, 384, "Input",ExpressionUUID->"9b0a8143-10e1-4ddc-8f31-b8236050a6dc"],
+Cell[3985, 101, 290, 6, 45, "Input",ExpressionUUID->"355dc247-e529-4dfa-ac15-80e0934e4004"],
 Cell[CellGroupData[{
-Cell[4253, 110, 524, 8, 160, "Subsection",ExpressionUUID->"e3782e7f-8f33-414c-a2a8-e8ad3b3f2f3e"],
+Cell[4300, 111, 524, 8, 128, "Subsection",ExpressionUUID->"e3782e7f-8f33-414c-a2a8-e8ad3b3f2f3e"],
 Cell[CellGroupData[{
-Cell[4802, 122, 231, 4, 81, "Input",ExpressionUUID->"9bc1fdc7-3029-47f0-9380-2e8a9cc9f15d"],
-Cell[5036, 128, 675971, 13283, 40629, "Output",ExpressionUUID->"02c360d2-6907-4e7d-95f2-494a3c9419ac"]
+Cell[4849, 123, 231, 4, 45, "Input",ExpressionUUID->"9bc1fdc7-3029-47f0-9380-2e8a9cc9f15d"],
+Cell[5083, 129, 676689, 13297, 35347, "Output",ExpressionUUID->"02c360d2-6907-4e7d-95f2-494a3c9419ac"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]

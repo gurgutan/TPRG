@@ -15,3 +15,4 @@
 4.1. https://developer.nvidia.com/gpugems/gpugems3/part-vi-gpu-computing/chapter-37-efficient-random-number-generation-and-application
 4.2. https://docs.python.org/3/library/random.html
 4.3. https://www.pcg-random.org/
+4.4. Операции с битами: https://graphics.stanford.edu/~seander/bithacks.html#CountBitsFromMSBToPos

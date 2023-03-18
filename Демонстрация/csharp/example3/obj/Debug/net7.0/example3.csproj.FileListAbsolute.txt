@@ -1,0 +1,15 @@
+E:\Документы\Иван\Работа\СГУ\ТПСГ\public\TPRG\Демонстрация\csharp\example3\bin\Debug\net7.0\example3.exe
+E:\Документы\Иван\Работа\СГУ\ТПСГ\public\TPRG\Демонстрация\csharp\example3\bin\Debug\net7.0\example3.deps.json
+E:\Документы\Иван\Работа\СГУ\ТПСГ\public\TPRG\Демонстрация\csharp\example3\bin\Debug\net7.0\example3.runtimeconfig.json
+E:\Документы\Иван\Работа\СГУ\ТПСГ\public\TPRG\Демонстрация\csharp\example3\bin\Debug\net7.0\example3.dll
+E:\Документы\Иван\Работа\СГУ\ТПСГ\public\TPRG\Демонстрация\csharp\example3\bin\Debug\net7.0\example3.pdb
+E:\Документы\Иван\Работа\СГУ\ТПСГ\public\TPRG\Демонстрация\csharp\example3\obj\Debug\net7.0\example3.csproj.AssemblyReference.cache
+E:\Документы\Иван\Работа\СГУ\ТПСГ\public\TPRG\Демонстрация\csharp\example3\obj\Debug\net7.0\example3.GeneratedMSBuildEditorConfig.editorconfig
+E:\Документы\Иван\Работа\СГУ\ТПСГ\public\TPRG\Демонстрация\csharp\example3\obj\Debug\net7.0\example3.AssemblyInfoInputs.cache
+E:\Документы\Иван\Работа\СГУ\ТПСГ\public\TPRG\Демонстрация\csharp\example3\obj\Debug\net7.0\example3.AssemblyInfo.cs
+E:\Документы\Иван\Работа\СГУ\ТПСГ\public\TPRG\Демонстрация\csharp\example3\obj\Debug\net7.0\example3.csproj.CoreCompileInputs.cache
+E:\Документы\Иван\Работа\СГУ\ТПСГ\public\TPRG\Демонстрация\csharp\example3\obj\Debug\net7.0\example3.dll
+E:\Документы\Иван\Работа\СГУ\ТПСГ\public\TPRG\Демонстрация\csharp\example3\obj\Debug\net7.0\refint\example3.dll
+E:\Документы\Иван\Работа\СГУ\ТПСГ\public\TPRG\Демонстрация\csharp\example3\obj\Debug\net7.0\example3.pdb
+E:\Документы\Иван\Работа\СГУ\ТПСГ\public\TPRG\Демонстрация\csharp\example3\obj\Debug\net7.0\example3.genruntimeconfig.cache
+E:\Документы\Иван\Работа\СГУ\ТПСГ\public\TPRG\Демонстрация\csharp\example3\obj\Debug\net7.0\ref\example3.dll
