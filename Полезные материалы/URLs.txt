@@ -20,3 +20,6 @@ https://youtu.be/viA-HIW-2C4 - Game of Life + AI
 4.2. https://docs.python.org/3/library/random.html
 4.3. https://www.pcg-random.org/
 4.4. Операции с битами: https://graphics.stanford.edu/~seander/bithacks.html#CountBitsFromMSBToPos
+
+5. Тестирование статистических свойств
+https://www.mypiday.com/ - Py day
