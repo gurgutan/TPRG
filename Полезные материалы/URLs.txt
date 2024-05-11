@@ -9,7 +9,9 @@
 2.1. https://www.nist.gov/
 2.2. https://files.stroyinf.ru/cgi-bin/ecat/ecat.fcgi?b=0&i=53898&pr=1
 3. New Kind of Science
-3.1 Клеточные автоматы. 
+3.1. Регистры сдвига и бинарная арифметика
+3.2. 
+3.3. Клеточные автоматы. 
 https://www.wolframscience.com/nks/chap-2--the-crucial-experiment/#sect-2-1--how-do-simple-programs-behave, 
 https://youtu.be/dQJ5aEsP6Fs - Game of Life 1
 https://youtu.be/C2vgICfQawE - Game of Life 2

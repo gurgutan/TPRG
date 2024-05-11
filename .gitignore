@@ -25,3 +25,4 @@ trash
 config.json
 # Временные файлы
 ~$*
+**/csharp/**
